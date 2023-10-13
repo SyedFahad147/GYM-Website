@@ -1,0 +1,258 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+nav{
+    width:100%;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color:white;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+#blue{
+    color:#ff0800;
+}
+.items a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.items a:first-child{
+    border-bottom: 1px solid #ff0800;
+}
+.container{
+    width:100%;
+    margin-top: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.left{
+    width:50%;
+}
+.right{
+    width:50%;
+    max-width: 400px;
+}
+.right h1{
+    font-size: 50px;
+    color: #ff0800;
+}
+.right p{
+    font-size: 25px;
+    margin:10px 0px;
+}
+.btn{
+    background: transparent;
+    padding: 10px 20px;
+    color:#ff0800;
+    border: 1px solid #ff0800;
+    border-radius: 8px;
+
+}
+#about{
+    padding: 100px 0px;
+}
+.about-row{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-col{
+    width:50%;
+}
+.right-col{
+    width:50%;
+    text-align: center;
+}
+
+.left-col{
+    max-width:400px;
+    margin:auto;
+}
+.left-col h1{
+    font-size: 35px;
+}
+.left-col p{
+   font-size: 20px;
+   text-align: justify;
+   margin: 15px 0px;
+}
+.c-btn{
+    font-size: 18px;
+    width:30%;
+    padding:10px;
+    margin:10px 0px;
+    color:white;
+    border: none;
+    background: #ff0800;
+}
+#signup{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0,0.03);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+.signup-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.signup-left{
+    width:50%;
+    text-align: center;
+}
+.signup-right{
+    width:50%;
+}
+.signup-right h1{
+    font-size:55px;
+}
+.signup-right h2{
+    font-size:30px;
+    letter-spacing: 40px;
+    color: rgba(0, 0, 0,0.3);
+    margin: 10px 0px;
+}
+#services{
+    padding: 50px 0px;
+}
+.services-info{
+    text-align: center;
+}
+.services-row{
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: minmax(150px, auto);
+    justify-content: center;
+    grid-gap: 3em;
+    padding-top: 20px;
+}
+.services-box{
+    box-shadow: 2px 3px 5px gray;
+    padding:10px;
+    text-align: center;
+}
+.services-box i{
+    background: #ff0800;
+    color:white;
+    font-size: 30px;
+    padding:5px;
+    margin-top: -20px;
+}
+#members{
+    padding:100px;
+    background-size: 35% 35%;
+    background-repeat: no-repeat;
+}
+.members-info{
+    text-align: center;
+}
+.members-card{
+    text-align: center;
+    width:50%;
+    padding-top: 50px;
+    margin:auto;
+}
+.members-card p{
+    margin: 20px 0px;
+    text-align: justify;
+}
+.members-card h2{
+    margin: 20px 0px;
+}
+#work{
+padding-top: 50px;
+padding-bottom: 200px;
+background: rgba(0, 0, 0,0.03);
+clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 80% 80%, 0% 100%);
+}
+.work-info{
+    text-align: center;
+}
+.work-row{
+    display:grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: minmax(150px, auto);
+    justify-content: center;
+    grid-gap: 3em;
+    padding-top: 20px;
+}
+.work-box{
+    box-shadow: 2px 3px 5px gray;
+}
+.work-box img{
+   width:100%;
+   height:100%;
+}
+#contact{
+    padding:30px 0px;
+}
+.contact-info{
+    text-align: center;
+}
+.contact-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-left{
+    width:50%;
+    padding-top: 50px;
+}
+.contact-right{
+    width:50%;
+    max-width: 450px;
+    margin:auto;
+}
+.contact-right i{
+    font-size: 20px;
+    padding: 10px;
+    background: #ff0800;
+    color:white;
+}
+.contact-right p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form{
+    width:70%;
+   margin:auto;
+ text-align: center;
+}
+.form input[type="text"] {
+    width:70%;
+    padding:10px;
+    margin-bottom:10px;
+}
+textarea{
+    width:70%;
+    padding:10px;
+    margin-bottom:10px;
+}
+#footer{
+    background: black;
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
